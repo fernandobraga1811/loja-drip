@@ -1,16 +1,50 @@
-# React + Vite
+# 💧 Loja Drip
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação de e-commerce moderna, rápida e responsiva, desenvolvida com as melhores tecnologias do ecossistema React.
 
-Currently, two official plugins are available:
+🌐 Deploy
+O projeto está disponível online através da Vercel:
+🔗 [Link para a Loja Drip](https://loja-drip-azure.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias
 
-## React Compiler
+Este projeto foi construído utilizando:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React** (Frontend Library)
+* **Vite** (Build Tool de alta performance)
+* **Tailwind CSS** (Estilização Utility-First)
+* **Lucide React** (Ícones)
+* **Vercel** (Deployment)
 
-## Expanding the ESLint configuration
+## 📦 Instalação e Execução
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para rodar o projeto localmente, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/fernandobraga1811/loja-drip.git](https://github.com/fernandobraga1811/loja-drip.git)
+Acesse o diretório:
+
+Bash
+cd loja-drip
+Instale as dependências:
+
+Nota: Devido a conflitos de peer dependencies entre Vite e Tailwind, utilize o comando abaixo:
+
+Bash
+npm install --legacy-peer-deps
+Inicie o servidor de desenvolvimento:
+
+Bash
+npm run dev
+Acesse no navegador:
+http://localhost:5173
+
+🛠️ Funcionalidades
+[x] Listagem de produtos dinâmica.
+
+[x] Carrinho de compras funcional.
+
+[x] Design totalmente responsivo (Mobile First).
+
+Desenvolvido com React, Tailwind CSS e muito café por [Fernando Braga](https://github.com/fernandobraga1811)
