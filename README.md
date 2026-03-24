@@ -23,20 +23,23 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/fernandobraga1811/loja-drip.git](https://github.com/fernandobraga1811/loja-drip.git)
+
 Acesse o diretório:
 
-Bash
-cd loja-drip
+"Bash"
+'cd loja-drip'
 Instale as dependências:
 
 Nota: Devido a conflitos de peer dependencies entre Vite e Tailwind, utilize o comando abaixo:
 
-Bash
-npm install --legacy-peer-deps
+"Bash"
+'npm install --legacy-peer-deps'
+
 Inicie o servidor de desenvolvimento:
 
-Bash
-npm run dev
+"Bash"
+'npm run dev'
+
 Acesse no navegador:
 http://localhost:5173
 
